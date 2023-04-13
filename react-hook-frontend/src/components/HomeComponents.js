@@ -1,15 +1,25 @@
 import React from 'react'
+import image from "./img/pic01.jpg"; 
 
 const HomeComponents = () => {
     return (
         <div className = "container">
-            <h2 className="text-center"> Art Home Page</h2>
-            <table className = "table table-center table-light">
-            <thead><th></th>              
-            </thead>
-            <tbody></tbody></table>   
+            <header>
+                <nav className="navbar navbar-expand-md navbar-dark bg-light">
+                <div>
+                    <h1 className = "navbar-brand">Art Home Page </h1>
+                </div>
+                </nav>
+            </header>      
+           
+           
             
+            <div style={{height:850,backgroundImage:`url(${image})`}}>               
+            </div>
         </div>
+           
+            
+       
     )
 }
 

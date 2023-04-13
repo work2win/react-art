@@ -7,3 +7,12 @@
   text-align: center;
   color: white;
 }
+
+.myStyle {
+  background-image: './images/pic01.jpg';
+  height:'100vh';
+  margin-top: -70px;
+  font-size: 5px;
+  background-size: cover;
+  background-repeat:no-repeat;
+}
