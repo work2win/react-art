@@ -5,7 +5,7 @@ const HomeComponents = () => {
     return (
         <div className = "container">
             <header>
-                <nav className="navbar navbar-expand-md navbar-dark bg-light">
+                <nav className="navbar navbar-expand-md navbar-dark bg-dark">
                 <div>
                     <h1 className = "navbar-brand">Art Home Page </h1>
                 </div>
